@@ -101,31 +101,23 @@ sampling of potentially good ideas that are not in scope for Swift
 
 ## Development minor version:  Swift 2.2
 
-Expected release date: Spring 2016
+リリース予定日: 2016春
 
-This release will focus on fixing bugs, improving
-quality-of-implementation (QoI) with better warnings and diagnostics,
-improving compile times, and improving performance.  It may also put
-some finishing touches on features introduced in Swift 2.0, and
-include some small additive features that don't break Swift code or
-fundamentally change the way Swift is used. As a step toward Swift
-3.0, it will introduce warnings about upcoming source-incompatible
-changes in Swift 3.0 so that users can begin migrating their code
-sooner.
+このリリースではバグの修正、より良い警告と診断による quality-of-implementation (QoI)の改善、コンパイル時間の改善、パフォーマンスの向上に重点的に取り組みます。また、Swift コードを壊したり、Swiftを使う方法を大きく変更しなければ、Swift 2.0 で導入された機能にいくつか仕上げを行ったり、小さな追加機能を含めてもよい。Swift 3.0 へのステップとして、ユーザーがすぐに移行できるように、3.0 の互換性のない変更について警告を導入します。
 
-### Implemented proposals for Swift 2.2
+### Swift 2.2 実装済みの提案
 
 * [Allow (most) keywords as argument labels](proposals/0001-keywords-as-argument-labels.md) (SE-0001)
 * [Tuple comparison operators](proposals/0015-tuple-comparison-operators.md) (SE-0015)
 * [Constraining `AnySequence.init`](proposals/0014-constrained-AnySequence.md) (SE-0014)
 
-### Accepted proposals for Swift 2.2
+### Swift 2.2 承認済みの提案
 * [Add a Lazy flatMap for Sequences of Optionals](proposals/0008-lazy-flatmap-for-optionals.md) (SE-0008)
 * [Replace `typealias` keyword with `associatedtype` for associated type declarations](proposals/0011-replace-typealias-associated.md) (SE-0011)
 
-# Other Proposals
+# その他の提案
 
-### Rejected proposals
+### 却下された提案
 * [Require self for accessing instance members](proposals/0009-require-self-for-accessing-instance-members.md) (SE-0009)
 
 # Review
