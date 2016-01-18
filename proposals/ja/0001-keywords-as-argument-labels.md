@@ -10,22 +10,15 @@
 
 ## 動機
 
-In some functions, the best argument label for a particular parameter
-happens to coincide with a language keyword. For example, consider a
-module-scope function that finds the index of a particular value in a
-collection. A natural name for this would be `indexOf(_:in:)`:
+いくつかの関数で、個々の引数の最も良い外部引数名が予約語と一致することが起きます。例えば、配列の特定の値を見つけるモジュールスコープの関数を考える。これの自然な名前は `indexOf(_:in:)` になるだろう:
 
 	indexOf(value, in: collection)
 
-However, because `in` is a keyword, one would actually have to use backticks to escape the `in`, e.g.:
+しかしながら、 `in` はキーワードなので、実際には `in` をエスケープのためにバッククウォートを使う必要があるだろう。例:
 
 	indexOf(value, `in`: collection)
 
-When defining new APIs in Swift, authors will tend to pick other
-non-keyword words (e.g., `within` for this example), even if they
-aren't ideal. However, this issue also comes up when importing
-Objective-C APIs under the "omit needless words" heuristics, requiring
-escaping to use those APIs. For example:
+Swift に新しいAPIを定義する際、開発者はキーワードではない単語(例: `within` for this example)を選びがちであり、それは理想的ではありません。一方で、この問題は the "omit needless words" heuristics に従って Objective-C API をインポートするときにも発生し、これらのAPIを使うためにエスケープが必要です。例えば:
 
 	event.touchesMatching([.Began, .Moved], `in`: view)
 	NSXPCInterface(`protocol`: SomeProtocolType.Protocol)
