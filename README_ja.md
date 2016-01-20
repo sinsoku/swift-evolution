@@ -110,10 +110,10 @@ sampling of potentially good ideas that are not in scope for Swift
 * [外部引数名として(大部分の)キーワードを許容する](proposals/ja/0001-keywords-as-argument-labels.md) (SE-0001)
 * [タプル比較演算子](proposals/ja/0015-tuple-comparison-operators.md) (SE-0015)
 * [Constraining `AnySequence.init`](proposals/0014-constrained-AnySequence.md) (SE-0014)
+* [Replace `typealias` keyword with `associatedtype` for associated type declarations](proposals/0011-replace-typealias-associated.md) (SE-0011)
 
 ### Swift 2.2 承認済みの提案
 * [Add a Lazy flatMap for Sequences of Optionals](proposals/0008-lazy-flatmap-for-optionals.md) (SE-0008)
-* [Replace `typealias` keyword with `associatedtype` for associated type declarations](proposals/0011-replace-typealias-associated.md) (SE-0011)
 
 # その他の提案
 
@@ -131,6 +131,8 @@ sampling of potentially good ideas that are not in scope for Swift
 * [Referencing the Objective-C selector of a method](proposals/0022-objc-selectors.md) (SE-0022, Jan 17-22)
 
 ### Scheduled for Review
+* [Better Translation of Objective-C APIs Into Swift](proposals/0005-objective-c-name-translation.md)
+* [Apply API Guidelines to the Standard Library](proposals/0006-apply-api-guidelines-to-the-standard-library.md)
 
 ### Awaiting Review
 * [Apply API Guidelines to the Standard Library](proposals/0006-apply-api-guidelines-to-the-standard-library.md) (SE-0006)
