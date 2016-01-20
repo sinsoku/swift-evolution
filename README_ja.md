@@ -110,7 +110,7 @@ sampling of potentially good ideas that are not in scope for Swift
 * [外部引数名として(大部分の)キーワードを許容する](proposals/ja/0001-keywords-as-argument-labels.md) (SE-0001)
 * [タプル比較演算子](proposals/ja/0015-tuple-comparison-operators.md) (SE-0015)
 * [Constraining `AnySequence.init`](proposals/0014-constrained-AnySequence.md) (SE-0014)
-* [Replace `typealias` keyword with `associatedtype` for associated type declarations](proposals/0011-replace-typealias-associated.md) (SE-0011)
+* [付属型を許容するために `typealias` キーワードを associatedtype に置き換える](proposals/ja/0011-replace-typealias-associated.md) (SE-0011)
 
 ### Swift 2.2 承認済みの提案
 * [Add a Lazy flatMap for Sequences of Optionals](proposals/0008-lazy-flatmap-for-optionals.md) (SE-0008)
