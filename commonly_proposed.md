@@ -33,3 +33,9 @@ Here are some other less-commonly proposed changes that have also been rejected:
 * [Remove support for `default:` in Switch, and just use `case _:`](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151207/001422.html): `default` is widely used, `case _` is too magical, and default is widely precedented in many C family languages.
 
 * [SE-0009: Require self for accessing instance members  ](proposals/0009-require-self-for-accessing-instance-members.md)
+
+* [SE-0024: Optional Value Setter `??=`](proposals/0024-optional-value-setter.md)
+
+* [SE-0027: Expose code unit initializers on String](proposals/0027-string-from-code-units.md)
+
+* [SE-0010: Add StaticString.UnicodeScalarView](proposals/0010-add-staticstring-unicodescalarview.md)

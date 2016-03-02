@@ -93,16 +93,22 @@ sampling of potentially good ideas that are not in scope for Swift
   with the Swift Package Manager.  Beyond Swift 3 we may consider standardizing
   popular packages or expanding the scope of the project.  
 
+### Implemented proposals for Swift 3
+
+* [SE-0005: Better Translation of Objective-C APIs Into Swift](proposals/0005-objective-c-name-translation.md)
+* [SE-0019: Swift Testing](proposals/0019-package-manager-testing.md)
+* [SE-0031: Adjusting inout Declarations for Type Decoration](proposals/0031-adjusting-inout-declarations.md)
+
 ### Accepted proposals for Swift 3.0
 
-* [Better Translation of Objective-C APIs Into Swift](proposals/0005-objective-c-name-translation.md) (SE-0005)
-* [Removing currying `func` declaration syntax](proposals/0002-remove-currying.md) (SE-0002)
-* [Removing `var` from Function Parameters](proposals/0003-remove-var-parameters.md)
-* [Remove the `++` and `--` operators](proposals/0004-remove-pre-post-inc-decrement.md) (SE-0004)
-* [Remove C-style for-loops with conditions and incrementers](proposals/0007-remove-c-style-for-loops.md) (SE-0007)
-* [Swift Testing](proposals/0019-package-manager-testing.md) (SE-0019)
-* [Modernizing Swift's Debugging Identifiers (\__FILE__, etc)](proposals/0028-modernizing-debug-identifiers.md)
-* [Remove implicit tuple splat behavior from function applications](proposals/0029-remove-implicit-tuple-splat.md)
+* [SE-0002: Removing currying `func` declaration syntax](proposals/0002-remove-currying.md)
+* [SE-0003: Removing `var` from Function Parameters](proposals/0003-remove-var-parameters.md)
+* [SE-0004: Remove the `++` and `--` operators](proposals/0004-remove-pre-post-inc-decrement.md)
+* [SE-0007: Remove C-style for-loops with conditions and incrementers](proposals/0007-remove-c-style-for-loops.md)
+* [SE-0028: Modernizing Swift's Debugging Identifiers (\__FILE__, etc)](proposals/0028-modernizing-debug-identifiers.md)
+* [SE-0029: Remove implicit tuple splat behavior from function applications](proposals/0029-remove-implicit-tuple-splat.md)
+* [SE-0034: Disambiguating Line Control Statements from Debugging Identifiers](proposals/0034-disambiguating-line.md)
+* [SE-0035: Limiting `inout` capture to `@noescape` contexts](proposals/0035-limit-inout-capture.md)
 
 ## Development minor version:  Swift 2.2
 
@@ -120,25 +126,25 @@ sooner.
 
 ### Implemented proposals for Swift 2.2
 
-* [Allow (most) keywords as argument labels](proposals/0001-keywords-as-argument-labels.md) (SE-0001)
-* [Tuple comparison operators](proposals/0015-tuple-comparison-operators.md) (SE-0015)
-* [Constraining `AnySequence.init`](proposals/0014-constrained-AnySequence.md) (SE-0014)
-* [Replace `typealias` keyword with `associatedtype` for associated type declarations](proposals/0011-replace-typealias-associated.md) (SE-0011)
-* [Naming Functions with Argument Labels](proposals/0021-generalized-naming.md) (SE-0021)
-* [Referencing the Objective-C selector of a method](proposals/0022-objc-selectors.md) (SE-0022)
+* [SE-0001: Allow (most) keywords as argument labels](proposals/0001-keywords-as-argument-labels.md)
+* [SE-0015: Tuple comparison operators](proposals/0015-tuple-comparison-operators.md)
+* [SE-0014: Constraining `AnySequence.init`](proposals/0014-constrained-AnySequence.md)
+* [SE-0011: Replace `typealias` keyword with `associatedtype` for associated type declarations](proposals/0011-replace-typealias-associated.md)
+* [SE-0021: Naming Functions with Argument Labels](proposals/0021-generalized-naming.md)
+* [SE-0022: Referencing the Objective-C selector of a method](proposals/0022-objc-selectors.md)
 
 ### Accepted proposals for Swift 2.2
-* [Add a Lazy flatMap for Sequences of Optionals](proposals/0008-lazy-flatmap-for-optionals.md) (SE-0008)
-* [Swift Language Version Build Configuration](proposals/0020-if-swift-version.md) (SE-0020)
+* [SE-0008: Add a Lazy flatMap for Sequences of Optionals](proposals/0008-lazy-flatmap-for-optionals.md)
+* [SE-0020: Swift Language Version Build Configuration](proposals/0020-if-swift-version.md)
 
 # Other Proposals
 
 ### Rejected proposals
-* [Require self for accessing instance members](proposals/0009-require-self-for-accessing-instance-members.md) (SE-0009)
-* [Remove Partial Application of Non-Final Super Methods (Swift 2.2)](proposals/0013-remove-partial-application-super.md) (SE-0013, Jan 9-13)
+* [SE-0009: Require self for accessing instance members](proposals/0009-require-self-for-accessing-instance-members.md)
+* [SE-0013: Remove Partial Application of Non-Final Super Methods (Swift 2.2)](proposals/0013-remove-partial-application-super.md)
 
 ## Review
 [Swift Evolution Review Schedule](https://github.com/apple/swift-evolution/blob/master/schedule.md)
 
 ### Returned for Revision
-* [Flexible Memberwise Initialization](proposals/0018-flexible-memberwise-initialization.md) (SE-0018)
+* [SE-0018: Flexible Memberwise Initialization](proposals/0018-flexible-memberwise-initialization.md)
